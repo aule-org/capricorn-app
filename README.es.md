@@ -2,7 +2,8 @@
 
 <p>
   <a href="https://github.com/aule-org/capricorn-hw"><img src="https://img.shields.io/badge/Hardware-capricorn--hw-1f6feb.svg" alt="Hardware de Capricorn"></a>
-  <a href="https://github.com/aule-org/capricorn-sw"><img src="https://img.shields.io/badge/Software-capricorn--sw-2da44e.svg" alt="Software de Capricorn"></a>
+  <a href="https://github.com/aule-org/capricorn-fw"><img src="https://img.shields.io/badge/Firmware-capricorn--fw-2da44e.svg" alt="Firmware de Capricorn"></a>
+  <a href="https://github.com/aule-org/capricorn-sw"><img src="https://img.shields.io/badge/Servidor-capricorn--sw-d97706.svg" alt="Servidor de Capricorn"></a>
   <a href="https://github.com/aule-org/capricorn-app"><img src="https://img.shields.io/badge/App-Capricorn-8250df.svg" alt="App de Capricorn"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-Apache%202.0-blue.svg" alt="Apache 2.0"></a>
 </p>
@@ -28,7 +29,8 @@ Planificada. La app partirá de la que construimos y pusimos en producción para
 
 ```
 capricorn-hw   el aparato: placa, tinta electrónica, audio, carcasa
-capricorn-sw   firmware: xiaozhi-esp32 + transporte LiveKit (WebRTC)
+capricorn-fw   firmware: xiaozhi-esp32 + transporte LiveKit (WebRTC)
+capricorn-sw   servidor central: tutor de voz, aparatos, API para familias
 capricorn-app  la app para familias                                  (este repositorio)
 ```
 
